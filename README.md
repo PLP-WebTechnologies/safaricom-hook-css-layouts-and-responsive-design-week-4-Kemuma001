@@ -235,108 +235,108 @@ Large screens (above 1024px): Display the layout as designed with Flexbox and Gr
 ### Bonus
 
 Add animations or transitions when resizing the screen.
-/* Base Styles */
+                                  /* Base Styles */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out; /* Add transition to all elements */
-}
+                                         * {
+                                                margin: 0;
+                                                padding: 0;
+                                                box-sizing: border-box;
+                                                transition: all 0.3s ease-in-out; 
+                                                     }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
+                                          body {
+                                                   font-family: Arial, sans-serif;
+                                                   line-height: 1.6;
+                                                     }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    transition: all 0.3s ease-in-out; /* Add transition */
-}
+                                          header {
+                                                   display: flex;
+                                                  justify-content: space-between;
+                                                  align-items: center;
+                                                  padding: 1rem;
+                                                  background-color: #333;
+                                                  color: white;
+                                                  transition: all 0.3s ease-in-out; 
+                                                           }
 
-header .logo {
-    font-size: 1.5rem;
-}
+                                    header .logo {
+                                                font-size: 1.5rem;
+                                                   }
 
-header nav ul {
-    display: flex;
-    list-style: none;
-    transition: all 0.3s ease-in-out; /* Add transition */
-}
+                                    header nav ul {
+                                                  display: flex;
+                                                 list-style: none;
+                                                 transition: all 0.3s ease-in-out; /* Add transition */
+                                                      }
 
-header nav ul li {
-    margin-left: 1rem;
-}
+                                    header nav ul li {
+                                                  margin-left: 1rem;
+                                                         }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+                                   header nav ul li a {
+                                                 color: white;
+                                                 text-decoration: none;
+                                                   }
 
-main {
-    padding: 2rem;
-    transition: all 0.3s ease-in-out; /* Add transition */
-}
+                                   main {
+                                                padding: 2rem;
+                                                transition: all 0.3s ease-in-out; /* Add transition */
+                                                   }
 
-main .content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1rem;
-    transition: all 0.3s ease-in-out; /* Add transition */
-}
+                                 main .content {
+                                               display: grid;
+                                               grid-template-columns: 2fr 1fr;
+                                               gap: 1rem;
+                                               transition: all 0.3s ease-in-out; /* Add transition */
+                                                      }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    transition: all 0.3s ease-in-out; /* Add transition */
-}
+                                    footer {
+                                                display: flex;
+                                                justify-content: space-between;
+                                               align-items: center;
+                                                padding: 1rem;
+                                                background-color: #333;
+                                                color: white;
+                                                 transition: all 0.3s ease-in-out; /* Add transition */
+                                                        }
 
-footer .social-media a {
-    color: white;
-    margin-right: 1rem;
-    text-decoration: none;
-}
+                                footer .social-media a {
+                                               color: white;
+                                               margin-right: 1rem;
+                                              text-decoration: none;
+                                                    }
 
-/* Small screens (up to 600px) */
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+                                          /* Small screens (up to 600px) */
+                                          @media (max-width: 600px) {
+                              header {
+                                              flex-direction: column;
+                                             align-items: flex-start;
+                                                }
 
-    header nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+                         header nav ul {
+                                               flex-direction: column;
+                                               align-items: flex-start;
+                                                     }
 
-    main .content {
-        grid-template-columns: 1fr;
-    }
+                        main .content {
+                                           grid-template-columns: 1fr;
+                                                  }
 
-    footer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
+                      footer {
+                                          flex-direction: column;
+                                         align-items: flex-start;
+                                             }
+                             }
 
-/* Medium screens (601px to 1024px) */
-@media (min-width: 601px) and (max-width: 1024px) {
-    main .content {
-        grid-template-columns: 1fr;
-    }
-}
+                             /* Medium screens (601px to 1024px) */
+                              @media (min-width: 601px) and (max-width: 1024px) {
+                 main .content {
+                                   grid-template-columns: 1fr;
+                                          }
+                                           }
 
-/* Large screens (above 1024px) */
-@media (min-width: 1025px) {
-    /* No changes needed, the base styles will apply */
-}
+                         /* Large screens (above 1024px) */
+                         @media (min-width: 1025px)
+                         
+                                      }
 
