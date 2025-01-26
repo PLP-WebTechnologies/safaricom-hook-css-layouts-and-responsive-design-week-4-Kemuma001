@@ -1,7 +1,6 @@
 # Assignment: Responsive Web Design
 
-            ## Objective:
-              Create a responsive webpage using modern CSS techniques, specifically Flexbox, Grid, and Media Queries. The goal is to ensure the webpage adapts gracefully to various screen sizes.
+Create a responsive webpage using modern CSS techniques, specifically Flexbox, Grid, and Media Queries. The goal is to ensure the webpage adapts gracefully to various screen sizes.
 
            ## Assignment Tasks
 
@@ -27,14 +26,14 @@
                                                                     <header>
                                                                         <div class="logo">Logo</div>
                                                                              <nav>
-                                                                                    <ul>
-                                                                                      <li><a href="#home">Home</a></li>
-                                                                                      <li><a href="#about">About</a></li>
-                                                                                      <li><a href="#services">Services</a></li>
-                                                                                      <li><a href="#contact">Contact</a></li>
-                                                                                         </ul>
-                                                                                          </nav>
-                                                                                </header>
+                                                                            <ul>
+                                                                             <li><a href="#home">Home</a></li>
+                                                                             <li><a href="#about">About</a></li>
+                                                                             <li><a href="#services">Services</a></li>
+                                                                             <li><a href="#contact">Contact</a></li>
+                                                                          </ul>
+                                                                           </nav>
+                                                              </header>
                                                            <main>
                                                         <section class="content">
                                                             <article>
@@ -61,68 +60,67 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+                                  * {
+                                      margin: 0;
+                                     padding: 0;
+                                    box-sizing: border-box;
+                                      }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
+                                 body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                           }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-}
+                               header {
+                                     display: flex;
+                                     justify-content: space-between;
+                                     align-items: center;
+                                    padding: 1rem;
+                                    background-color: #333;
+                                    color: white;
+                                     }
 
-header .logo {
-    font-size: 1.5rem;
-}
+                              header .logo {
+                                   font-size: 1.5rem;
+                                          }
+                              header nav ul {
+                                    display: flex;
+                                    list-style: none;
+                                         }
 
-header nav ul {
-    display: flex;
-    list-style: none;
-}
+                              header nav ul li {
+                                     margin-left: 1rem;
+                                             }
 
-header nav ul li {
-    margin-left: 1rem;
-}
+                          header nav ul li a {
+                                    color: white;
+                                    text-decoration: none;
+                                                }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+                              main {
+                                    padding: 2rem;
+                                          }                    
 
-main {
-    padding: 2rem;
-}
+                          main .content {
+                                     display: grid;
+                                    grid-template-columns: 2fr 1fr;
+                                    gap: 1rem;
+                                       }
 
-main .content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1rem;
-}
+                         footer {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 1rem;
+                                    background-color: #333;
+                                    color: white;
+                                           }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-}
-
-footer .social-media a {
-    color: white;
-    margin-right: 1rem;
-    text-decoration: none;
-}
+                       footer .social-media a {
+                                     color: white;
+                                     margin-right: 1rem;
+                                     text-decoration: none;
+                                                }
 
 
 
